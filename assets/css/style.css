@@ -1,7 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body {
+    background-color: black;
+    outline: auto;
+}
+
+/* -------------- COLORS -------------- */
+.bg-color-name-title {
+    background-color: rgb(35, 0, 236);
+}
+
+.ui-menu-color-home {
+    background-color: greenyellow;
+}
+.ui-menu-color-resume {
+    background-color: greenyellow;
+}
+.ui-menu-color-contact {
+    background-color: greenyellow;
+}
+.ui-menu-color-download {
+    background-color: greenyellow;
+}
+
+/* -------------- HEADING -------------- */
+
 header {
     margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
@@ -12,5 +41,39 @@ header {
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out
+}
+.name {
+    font-family: Conthrax;
+    font-size: 46px;
+    margin-top: 50px;
+    color: white;
+}
+
+.title {
+    font-family: Tahoma;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
+}
+
+/* -------------- LAYOUT CORRECTIONS -------------- */
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding-right: 50px;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
 }
