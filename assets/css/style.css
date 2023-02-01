@@ -10,6 +10,10 @@ body {
     background-color: rgb(35, 0, 236);
 }
 
+.bg-color-three-reasons {
+background-color: white;
+}
+
 .ui-menu-color-home {
     background-color: black;
 }
@@ -21,6 +25,43 @@ body {
 }
 .ui-menu-color-download {
     background-color:black;
+}
+
+/* -------------- Special Paddings/margins/text -------------- */
+
+h1, h2, h3, h4 {
+margin: 0;
+} 
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.row-table {
+    display:table;
+}
+
+.section-column {
+    display:table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* -------------- HEADING -------------- */
@@ -69,7 +110,13 @@ header {
 .menu-container {
     font-size: 0;
 }
+.col {
+    margin: 0;
+    padding: 0;
+}
+/* -------------- LAYOUT CORRECTIONS -------------- */
 
+/* -------------- NAVBAR -------------- */
 #nav {
     margin: 0;
 }
@@ -120,7 +167,62 @@ header {
     height: 120px;
 }
 
-.col {
+
+
+/* -------------- FOOTER -------------- */
+
+footer {
+    background-color: #525252;
+    min-height: 120px;
     margin: 0;
-    padding: 0;
+}
+
+footer p {
+    color: white;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: rgb(50, 252, 10);
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width:32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background-color: rgb(35, 0, 236);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background:greenyellow;
+    color: black;
+}
+
+#footer-details {
+    padding: 20px;
+    border: solid 1px rgb(35, 0, 236);
+
 }
