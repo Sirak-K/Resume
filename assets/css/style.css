@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    outline: auto;
+    /* outline: auto; */
 }
 
 /* -------------- COLORS -------------- */
@@ -11,16 +11,16 @@ body {
 }
 
 .ui-menu-color-home {
-    background-color: greenyellow;
+    background-color: black;
 }
 .ui-menu-color-resume {
-    background-color: greenyellow;
+    background-color:black;
 }
 .ui-menu-color-contact {
-    background-color: greenyellow;
+    background-color:black;
 }
 .ui-menu-color-download {
-    background-color: greenyellow;
+    background-color:black;
 }
 
 /* -------------- HEADING -------------- */
@@ -46,6 +46,7 @@ header {
 .name {
     font-family: Conthrax;
     font-size: 46px;
+    margin-left: 50px;
     margin-top: 50px;
     color: white;
 }
@@ -53,6 +54,7 @@ header {
 .title {
     font-family: Tahoma;
     font-size: 28px;
+    margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: white;
@@ -64,13 +66,58 @@ header {
     margin-right: 0;
 }
 
-.menucontainer {
+.menu-container {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
 #nav li {
     font-size: 14px;
     padding-right: 50px;
+}
+
+#nav li a {
+    color: white;
+}
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    
+}
+.menu-item a {
+   width: 100%;
+   text-decoration: none;
+   color:black;
+}
+
+/* For Icons */
+.menu-item a i {
+   padding-top: 22px;
+   display:block;
+   color: grey;
+   font-size: 26px;
+   color: white;
+}
+
+.menu-item span {
+    display:block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* -------------- HOVER -------------- */
+.hvr-sweep-to-bottom:before {
+    background: rgb(9, 255, 1);
+    opacity: 0.6;
+    height: 120px;
 }
 
 .col {
