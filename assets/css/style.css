@@ -2,7 +2,6 @@
 
 body {
     background-color: black;
-    /* outline: auto; */
 }
 
 /* -------------- COLORS -------------- */
@@ -11,14 +10,28 @@ body {
 }
 
 .bg-color-three-reasons {
-background-color: white;
+background-color: black;
 }
 
-.ui-menu-color-home {
+.bg-color-three-reasons h4{
+    color: greenyellow;
+}
+
+.bg-color-three-reasons p{
+        color: white;
+}
+
+.bg-color-personal-info {
+    color:white;
+}
+
+.ui-menu-color-home{
     background-color: black;
+    
 }
 .ui-menu-color-resume {
     background-color:black;
+    
 }
 .ui-menu-color-contact {
     background-color:black;
@@ -26,6 +39,7 @@ background-color: white;
 .ui-menu-color-download {
     background-color:black;
 }
+
 
 /* -------------- Special Paddings/margins/text -------------- */
 
@@ -47,21 +61,26 @@ margin: 0;
     display:inline-block;
 }
 
-.row-table {
+/* .row-table {
     display:table;
-}
+    margin: 0;
+    padding: 0;
+} */
 
-.section-column {
+/* .section-column {
     display:table-cell;
     padding: 0 30px 30px;
     float: none;
-}
+} */
+
 
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Conthrax", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    color: greenyellow;
 }
 
 /* -------------- HEADING -------------- */
@@ -102,11 +121,6 @@ header {
 }
 
 /* -------------- LAYOUT CORRECTIONS -------------- */
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
-}
-
 .menu-container {
     font-size: 0;
 }
@@ -114,60 +128,69 @@ header {
     margin: 0;
     padding: 0;
 }
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+    text-align: center;
+}
 /* -------------- LAYOUT CORRECTIONS -------------- */
 
 /* -------------- NAVBAR -------------- */
 #nav {
     margin: 0;
 }
-#nav li {
-    font-size: 14px;
-    padding-right: 50px;
-}
 
-#nav li a {
-    color: white;
-}
 .menu-item {
+    font-family: Conthrax;
     height: 120px;
     text-align: center;
     padding: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
     
 }
-.menu-item a {
-   width: 100%;
-   text-decoration: none;
-   color:black;
-}
 
-/* For Icons */
-.menu-item a i {
+/* ICONS */
+.menu-item i {
    padding-top: 22px;
    display:block;
-   color: grey;
-   font-size: 26px;
-   color: white;
+   color: rgb(252, 253, 251);
+   
 }
-
+.menu-item a {
+    font-size: 28px;
+    width: 100%;
+    text-decoration: none;
+    color:rgb(243, 238, 238);
+ }
 .menu-item span {
+    font-size: 16px;
     display:block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 /* -------------- HOVER -------------- */
 .hvr-sweep-to-bottom:before {
-    background: rgb(9, 255, 1);
-    opacity: 0.6;
+    background: rgb(128, 209, 8);
+    opacity: 0.8;
     height: 120px;
 }
 
-
+ .menu-item i:hover {
+    color: black;
+ }
+ .menu-item li:hover {
+    color: black;
+ }
+ .menu-item span:hover {
+    color:black;
+}
 
 /* -------------- FOOTER -------------- */
 
@@ -226,3 +249,52 @@ footer p {
     border: solid 1px rgb(35, 0, 236);
 
 }
+
+/* ----------- Three Reasons ----------- */
+.three-reasons-icon {
+    font-size:26px;
+    color: rgb(0, 255, 42);
+}
+.three-reasons-heading {
+    margin-bottom:15px;
+}
+
+/* ----------- Three Reasons ----------- */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear:both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.personal-info-item .p,
+.personal-info-item .p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
