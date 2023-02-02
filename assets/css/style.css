@@ -30,6 +30,9 @@ background-color: black;
 background-color:black;
 }
 
+.bg-color-contact {
+    color:white;
+}
 
 .ui-menu-color-home{
     background-color: black;
@@ -65,19 +68,6 @@ margin: 0;
 .inline-block {
     display:inline-block;
 }
-
-/* .row-table {
-    display:table;
-    margin: 0;
-    padding: 0;
-} */
-
-/* .section-column {
-    display:table-cell;
-    padding: 0 30px 30px;
-    float: none;
-} */
-
 
 .section-heading,
 .history-heading {
@@ -359,6 +349,51 @@ footer p {
 .history-items {
     margin-bottom: 30px;
 }
+
+/* ----------- CONTACT FORM ----------- */
+
+.contact-heading {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+color: greenyellow;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: greenyellow;
+    font-family: Exo;
+}
+
+/* ----------- RESPONSIVENESS ----------- */
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 10px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
