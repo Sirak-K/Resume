@@ -2,6 +2,7 @@
 
 body {
     background-color: black;
+    
 }
 
 /* -------------- COLORS -------------- */
@@ -28,6 +29,7 @@ background-color: black;
 .bg-color-work-history {
 background-color:black;
 }
+
 
 .ui-menu-color-home{
     background-color: black;
@@ -302,9 +304,7 @@ footer p {
     margin-bottom: 4px;
     font-family: Exo;
     font-size: 12px;
-    
 }
-
 .progress-type {
     position: absolute;
     left: 0px;
@@ -313,11 +313,52 @@ footer p {
     color: greenyellow;
     background-color: black;
 }
-
 .progress-section {
     margin: 20px 10px;
 }
 
+/* ----------- WORK HISTORY ----------- */
+
+.history-heading {
+    color: greenyellow;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: white;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin:0;
+}
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display:block;
+    padding: 0;
+    margin:0;
+}
+.timeline-item:before {
+    width: 12px;
+    height: 12px;
+    display:block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: grey;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
 
 
 
