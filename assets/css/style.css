@@ -34,6 +34,14 @@ background-color:black;
     color:white;
 }
 
+.bg-color-conferences {
+    color:white;
+}
+
+.bg-color-groups {
+    color:white;
+}
+
 .ui-menu-color-home{
     background-color: black;
     
@@ -46,6 +54,14 @@ background-color:black;
 }
 .ui-menu-color-download {
     background-color:black;
+}
+
+.ui-menu-color-github {
+    background-color: black;
+}
+
+.ui-menu-color-interests {
+    background-color: black;
 }
 
 
@@ -137,6 +153,7 @@ header {
 
 .menu-item {
     font-family: Conthrax;
+    display:inline-block;
     height: 120px;
     text-align: center;
     padding: 0;
@@ -372,6 +389,10 @@ button[type="submit"] {
     color: black;
     background-color: greenyellow;
     font-family: Exo;
+}
+/* ----------- MAP ----------- */
+div#map {
+    min-height: 360px;
 }
 
 /* ----------- RESPONSIVENESS ----------- */
