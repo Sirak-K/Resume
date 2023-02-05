@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sirak</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Sirak</title>
+    </head>
 
 <body>
     <!-------------- HEADER (NAV) -------------->
     <header>
-        <div class="row no-gutters">
+        <div class="row">
             <a href="index.html" class="col-md-4 logo">
                 
             </a>
             <div class="col-md-8">
-                <div class="row no-gutters bg-color-name-title">
+                <div class="row bg-color-name-title">
                     <div class="col heading">
                         <h1 class="name">Sirak Kahsay</h1>
                         <h2 class="title">Full Stack Developer</h2>
                     </div>
                 </div>
-                <div class="row no-gutters">
+                <div class="row">
                     <div class="col">
-                        <ul id="nav" class="list-inline menucontainer row">
-                            <li class="col-6 col-sm-2 ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                            </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-resume menuitem">
-                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                            </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-interests menuitem">
-                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
-                            </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-github menuitem">
-                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-                            </li>
-                            <li class="col-6 col-sm-2 ui-menu-color-download menuitem">
-                                <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
-                            </li>
+                        <ul id="nav" class="list-inline menu-container">
+                           <!--HOME-->
+                           <li class="col-xs-6 col-sm-2 ui-menu-color-home menu-item">
+                            <a href="index.html" target="_blank" class="hvr-sweep-to-bottom">
+                                <i class="icon-main fa fa-house" aria-hidden="true"></i><span>Home</span></a></li>
+                        <!--RESUME-->
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-resume menu-item">
+                            <a href="resume.html" target="_blank" class="hvr-sweep-to-bottom">
+                                <i class="icon-main fa fa-graduation-cap"></i><span>Resume</span></a></li>
+                        <!--CONTACT-->
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-contact menu-item">
+                            <a href="contact.html" target="_blank" class="hvr-sweep-to-bottom">
+                                <i class="icon-main fa fa-comment"></i><span>Contact</span></a></li>
+                        <!--INTERESTS-->
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-interests menu-item">
+                            <a href="interests.html" class="hvr-sweep-to-bottom">
+                                <i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
+                        </li>
+                        <!--GITHUB-->
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-github menu-item">
+                            <a href="github.html" class="hvr-sweep-to-bottom">
+                                <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                        </li>
+                        <!--DOWNLOAD CV-->
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-download menu-item">
+                            <a href="assets/cv/[CV] - Sirak Kahsay (2022-12-12).pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                <i class="icon-main fa fa-download"></i><span>Download</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -199,6 +206,20 @@
         </div>
 
     </footer>
+<!-------------- API: GOOGLE MAPS-------------->
+<script>
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 3,
+        center: {
+            lat: 46.619261,
+            lng: -33.134766
+        }
+    });
+}
+</script>
+
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>

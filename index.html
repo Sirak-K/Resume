@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sirak</title>
 </head>
-<!-- API Key: AIzaSyCaxK0GL0eVxRo-4rL1imDusF3GEIHjcJI-->
+<!--import { MarkerClusterer } from "@googlemaps/markerclusterer";
+const markerCluster = new MarkerClusterer({ map, markers });>-->
+
 <body>
-    <!-------------- HEADER (NAV) -------------->
+    ----------- HEADER (NAV) -----------
     <header>
         <div class="row">
             <a href="index.html" class="col-md-4 logo">
@@ -28,17 +30,17 @@
 
                 <div class="row">
                     <div class="col">
-                        <ul id="nav" class="list-inline menu-container">
+                        <ul id="nav" class="list-inline menucontainer row">
                             <!--HOME-->
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-home menu-item">
+                            <li class="col-6 col-sm-3 ui-menu-color-home menu-item">
                                 <a href="index.html" target="_blank" class="hvr-sweep-to-bottom">
                                     <i class="icon-main fa fa-house" aria-hidden="true"></i><span>Home</span></a></li>
                             <!--RESUME-->
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-resume menu-item">
+                            <li class="col-6 col-sm-3 ui-menu-color-resume menu-item">
                                 <a href="resume.html" target="_blank" class="hvr-sweep-to-bottom">
                                     <i class="icon-main fa fa-graduation-cap"></i><span>Resume</span></a></li>
                             <!--CONTACT-->
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-contact menu-item">
+                            <li class="col-6 col-sm-3 ui-menu-color-contact menu-item">
                                 <a href="contact.html" target="_blank" class="hvr-sweep-to-bottom">
                                     <i class="icon-main fa fa-comment"></i><span>Contact</span></a></li>
                             <!--INTERESTS-->
@@ -52,7 +54,7 @@
                                     <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
                             <!--DOWNLOAD CV-->
-                            <li class="col-xs-6 col-sm-2 ui-menu-color-download menu-item">
+                            <li class="col-6 col-sm-3 ui-menu-color-download menu-item">
                                 <a href="assets/cv/[CV] - Sirak Kahsay (2022-12-12).pdf" target="_blank" class="hvr-sweep-to-bottom">
                                     <i class="icon-main fa fa-download"></i><span>Download</span></a></li>
                         </ul>
@@ -62,7 +64,7 @@
             </div>
         </div>
     </header>
-    <!-------------- MAIN CONTENT -------------->
+    ----------- MAIN CONTENT -----------
     <section class="container-fluid">
         <div class="row">
             <div class="col-md-4 bg-color-personal-info section-column">
@@ -171,7 +173,7 @@
         </div>
 
     </section>
-    <!-------------- FOOTER -------------->
+    ----------- FOOTER -----------
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
@@ -231,5 +233,10 @@
         </div>
     </footer>
 
+<script> var APIKey = "AIzaSyCaxK0GL0eVxRo-4rL1imDusF3GEIHjcJI"</script
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaxK0GL0eVxRo-4rL1imDusF3GEIHjcJI&callback=initMap&v=weekly"></script>
+    
 </body>
 </html>
